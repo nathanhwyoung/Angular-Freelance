@@ -1,6 +1,6 @@
-var freelanceApp = angular.module('freelanceApp', ['ui.router']);
+var FreelanceApp = angular.module('FreelanceApp', ['ui.router']);
 //debugger;
-freelanceAPp.config(function($stateProvider, $urlRouterProvider ) {
+FreelanceApp.config(function($stateProvider, $urlRouterProvider ) {
   $stateProvider.state('home', {
     url: "",
     views: {
@@ -15,6 +15,10 @@ freelanceAPp.config(function($stateProvider, $urlRouterProvider ) {
       'footer': {
         templateUrl: "partials/footer.html",
         controller: 'FooterCtrl'
+      },
+      'suggestions': {
+        templateUrl: "partials/suggestions.html",
+        controller: 'SuggestionCtrl'
       },
     }
   });
