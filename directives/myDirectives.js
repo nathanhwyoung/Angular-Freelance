@@ -27,7 +27,7 @@ FreelanceApp.directive("alertUser", function () {
       yell: "&"
     },
     template:'<input type="text" ng-model="value">' +
-      '<div class="btn btn-default" ng-click="yell({message:value})">Alert!!!</div>'
+      '<div class="btn btn-default" ng-click="yell({message:value})">message</div>'
       }
 });
 

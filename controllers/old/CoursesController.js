@@ -2,7 +2,7 @@ courseRoster.controller('CoursesCtrl', function CoursesCtrl($scope, CoursesFacto
   $scope.courses = CoursesFactory.courses;
   $scope.CoursesFactory = CoursesFactory;
   $scope.courseName = "SCIENCE";
-  $scope.courseAlert = function (message) {
+  $scope.alertMyBalls = function (message) {
     alert(message)
   }
 });
